@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+body{
+  font-family: sans-serif;
+  font-weight: Bold;
+  text-align: center;
+}
+.input {
+  width: 60%;
+  outline: none;
+  font-weight: Bold;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  padding: 5px;
+  border-top: 1px solid;
+}
+h1{
+  font-weight: bold;
+}
+.btn1 ,.btn2{
+  width: 80px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 5px; 
+}
+.btn3{
+  width: 100%;
+  font-weight: bold;
+  color: red;
+  font-size: 1.5rem;
+}
+.btn3:hover{
+  background-color: red;
+  color: white;
+}
+.btn4{
+  width: 100%;
+  font-weight: bold;
+  color: green;
+  font-size: 1.5rem;
+}
+.btn4:hover{
+  background-color: green;
+  color: white;
+}
+table{
+  text-align: center;
+  margin: auto;
+  font-weight: Bold;
+  text-transform: capitalize;
+  list-style-type: none;
+  width: 80%;
+  
+}
+.name{
+  width: 70%;
+}
+td{
+  border: solid 1px;
+}
