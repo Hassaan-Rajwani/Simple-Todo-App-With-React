@@ -7,7 +7,8 @@ function App() {
   const[BtnChange,setBtnChange] = useState(true)
   const[editIndex,setEditIndex] = useState()
 
-const addTask = () => {
+// add function
+  const addTask = () => {
   if(input == ""){
     alert("Please Write !")
   }
